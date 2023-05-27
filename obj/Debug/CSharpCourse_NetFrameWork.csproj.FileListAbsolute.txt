@@ -9,3 +9,5 @@ D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCou
 D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.exe
 D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.pdb
 D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.Example14.Example14_02.resources
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.Example14.Example14_01.resources
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.Example14.Example14_03.resources

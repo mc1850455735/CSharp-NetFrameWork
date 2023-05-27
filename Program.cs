@@ -14,7 +14,7 @@ namespace CSharpCourse_NetFrameWork
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Example14_02());
+            Application.Run(new Example14_03());
         }
     }
 }
