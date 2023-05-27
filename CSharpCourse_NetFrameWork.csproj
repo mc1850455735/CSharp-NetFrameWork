@@ -65,6 +65,12 @@
     <Compile Include="Chapter14\Example14\Example14_03.Designer.cs">
       <DependentUpon>Example14_03.cs</DependentUpon>
     </Compile>
+    <Compile Include="Chapter14\Example14\Example14_04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter14\Example14\Example14_04.Designer.cs">
+      <DependentUpon>Example14_04.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Chapter14\Example14\Example14_01.resx">
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter14\Example14\Example14_03.resx">
       <DependentUpon>Example14_03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter14\Example14\Example14_04.resx">
+      <DependentUpon>Example14_04.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
