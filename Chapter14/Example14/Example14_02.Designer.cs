@@ -37,6 +37,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Example14_02";
             this.Text = "Example14_02";
+            this.Load += new System.EventHandler(this.Example14_02_Load);
+            this.SizeChanged += new System.EventHandler(this.Example14_02_SizeChanged);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Example14_02_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Example14_02_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Example14_02_MouseUp);

@@ -53,6 +53,12 @@
     <Compile Include="Example14\Example14_02.Designer.cs">
       <DependentUpon>Example14_02.cs</DependentUpon>
     </Compile>
+    <Compile Include="Example14\Example14_03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example14\Example14_03.Designer.cs">
+      <DependentUpon>Example14_03.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Example14\Example14_02.resx">
