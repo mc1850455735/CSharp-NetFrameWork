@@ -1,0 +1,11 @@
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\bin\Debug\CSharpCourse_NetFrameWork.exe.config
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\bin\Debug\CSharpCourse_NetFrameWork.exe
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\bin\Debug\CSharpCourse_NetFrameWork.pdb
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.csproj.AssemblyReference.cache
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.csproj.SuggestedBindingRedirects.cache
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.Properties.Resources.resources
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.csproj.GenerateResource.cache
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.csproj.CoreCompileInputs.cache
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.exe
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.pdb
+D:\program\softwareProgram\program\CSharpCourse_NetFrameWork\obj\Debug\CSharpCourse_NetFrameWork.Example14.Example14_02.resources
