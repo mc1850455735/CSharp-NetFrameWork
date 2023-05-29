@@ -34,34 +34,34 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.ngRotate = new System.Windows.Forms.NumericUpDown();
-            this.ngxScale = new System.Windows.Forms.NumericUpDown();
+            this.ngyMove = new System.Windows.Forms.NumericUpDown();
             this.ngxMove = new System.Windows.Forms.NumericUpDown();
             this.ngyScale = new System.Windows.Forms.NumericUpDown();
-            this.ngyMove = new System.Windows.Forms.NumericUpDown();
+            this.ngxScale = new System.Windows.Forms.NumericUpDown();
+            this.ngRotate = new System.Windows.Forms.NumericUpDown();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.nlyMove = new System.Windows.Forms.NumericUpDown();
+            this.nlRotate = new System.Windows.Forms.NumericUpDown();
+            this.nlxMove = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
+            this.nlyScale = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
+            this.nlxScale = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.nlRotate = new System.Windows.Forms.NumericUpDown();
-            this.nlxScale = new System.Windows.Forms.NumericUpDown();
-            this.nlyScale = new System.Windows.Forms.NumericUpDown();
-            this.nlxMove = new System.Windows.Forms.NumericUpDown();
-            this.nlyMove = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ngRotate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ngxScale)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ngyMove)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ngxMove)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ngyScale)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ngyMove)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nlRotate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nlxScale)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nlyScale)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nlxMove)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ngxScale)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ngRotate)).BeginInit();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nlyMove)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nlRotate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nlxMove)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nlyScale)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nlxScale)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -128,56 +128,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "全局变形";
             // 
-            // groupBox2
+            // ngyMove
             // 
-            this.groupBox2.Controls.Add(this.nlyMove);
-            this.groupBox2.Controls.Add(this.nlRotate);
-            this.groupBox2.Controls.Add(this.nlxMove);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.nlyScale);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.nlxScale);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Location = new System.Drawing.Point(401, 241);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(349, 166);
-            this.groupBox2.TabIndex = 11;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "对椭圆进行局部变形";
-            // 
-            // ngRotate
-            // 
-            this.ngRotate.Location = new System.Drawing.Point(133, 34);
-            this.ngRotate.Maximum = new decimal(new int[] {
-            360,
+            this.ngyMove.Location = new System.Drawing.Point(267, 116);
+            this.ngyMove.Maximum = new decimal(new int[] {
+            200,
             0,
             0,
             0});
-            this.ngRotate.Name = "ngRotate";
-            this.ngRotate.Size = new System.Drawing.Size(59, 25);
-            this.ngRotate.TabIndex = 5;
-            this.ngRotate.ValueChanged += new System.EventHandler(this.ngRotate_ValueChanged);
-            // 
-            // ngxScale
-            // 
-            this.ngxScale.DecimalPlaces = 1;
-            this.ngxScale.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.ngxScale.Location = new System.Drawing.Point(133, 75);
-            this.ngxScale.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.ngxScale.Name = "ngxScale";
-            this.ngxScale.Size = new System.Drawing.Size(59, 25);
-            this.ngxScale.TabIndex = 5;
-            this.ngxScale.ValueChanged += new System.EventHandler(this.ngxScale_ValueChanged);
+            this.ngyMove.Name = "ngyMove";
+            this.ngyMove.Size = new System.Drawing.Size(59, 25);
+            this.ngyMove.TabIndex = 5;
+            this.ngyMove.ValueChanged += new System.EventHandler(this.ngyMove_ValueChanged);
             // 
             // ngxMove
             // 
@@ -211,18 +173,95 @@
             this.ngyScale.TabIndex = 5;
             this.ngyScale.ValueChanged += new System.EventHandler(this.ngyScale_ValueChanged);
             // 
-            // ngyMove
+            // ngxScale
             // 
-            this.ngyMove.Location = new System.Drawing.Point(267, 116);
-            this.ngyMove.Maximum = new decimal(new int[] {
+            this.ngxScale.DecimalPlaces = 1;
+            this.ngxScale.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.ngxScale.Location = new System.Drawing.Point(133, 75);
+            this.ngxScale.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.ngxScale.Name = "ngxScale";
+            this.ngxScale.Size = new System.Drawing.Size(59, 25);
+            this.ngxScale.TabIndex = 5;
+            this.ngxScale.ValueChanged += new System.EventHandler(this.ngxScale_ValueChanged);
+            // 
+            // ngRotate
+            // 
+            this.ngRotate.Location = new System.Drawing.Point(133, 34);
+            this.ngRotate.Maximum = new decimal(new int[] {
+            360,
+            0,
+            0,
+            0});
+            this.ngRotate.Name = "ngRotate";
+            this.ngRotate.Size = new System.Drawing.Size(59, 25);
+            this.ngRotate.TabIndex = 5;
+            this.ngRotate.ValueChanged += new System.EventHandler(this.ngRotate_ValueChanged);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.nlyMove);
+            this.groupBox2.Controls.Add(this.nlRotate);
+            this.groupBox2.Controls.Add(this.nlxMove);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.nlyScale);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.nlxScale);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.label10);
+            this.groupBox2.Location = new System.Drawing.Point(401, 241);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(349, 166);
+            this.groupBox2.TabIndex = 11;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "对椭圆进行局部变形";
+            // 
+            // nlyMove
+            // 
+            this.nlyMove.Location = new System.Drawing.Point(263, 116);
+            this.nlyMove.Maximum = new decimal(new int[] {
             200,
             0,
             0,
             0});
-            this.ngyMove.Name = "ngyMove";
-            this.ngyMove.Size = new System.Drawing.Size(59, 25);
-            this.ngyMove.TabIndex = 5;
-            this.ngyMove.ValueChanged += new System.EventHandler(this.ngyMove_ValueChanged);
+            this.nlyMove.Name = "nlyMove";
+            this.nlyMove.Size = new System.Drawing.Size(59, 25);
+            this.nlyMove.TabIndex = 5;
+            this.nlyMove.ValueChanged += new System.EventHandler(this.nlyMove_ValueChanged);
+            // 
+            // nlRotate
+            // 
+            this.nlRotate.Location = new System.Drawing.Point(129, 34);
+            this.nlRotate.Maximum = new decimal(new int[] {
+            360,
+            0,
+            0,
+            0});
+            this.nlRotate.Name = "nlRotate";
+            this.nlRotate.Size = new System.Drawing.Size(59, 25);
+            this.nlRotate.TabIndex = 5;
+            this.nlRotate.ValueChanged += new System.EventHandler(this.nlRotate_ValueChanged);
+            // 
+            // nlxMove
+            // 
+            this.nlxMove.Location = new System.Drawing.Point(129, 116);
+            this.nlxMove.Maximum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            this.nlxMove.Name = "nlxMove";
+            this.nlxMove.Size = new System.Drawing.Size(59, 25);
+            this.nlxMove.TabIndex = 5;
+            this.nlxMove.ValueChanged += new System.EventHandler(this.nlxMove_ValueChanged);
             // 
             // label6
             // 
@@ -233,6 +272,25 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "纵向:";
             // 
+            // nlyScale
+            // 
+            this.nlyScale.DecimalPlaces = 1;
+            this.nlyScale.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.nlyScale.Location = new System.Drawing.Point(263, 75);
+            this.nlyScale.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nlyScale.Name = "nlyScale";
+            this.nlyScale.Size = new System.Drawing.Size(59, 25);
+            this.nlyScale.TabIndex = 5;
+            this.nlyScale.ValueChanged += new System.EventHandler(this.nlyScale_ValueChanged);
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -241,6 +299,25 @@
             this.label7.Size = new System.Drawing.Size(45, 15);
             this.label7.TabIndex = 3;
             this.label7.Text = "纵向:";
+            // 
+            // nlxScale
+            // 
+            this.nlxScale.DecimalPlaces = 1;
+            this.nlxScale.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.nlxScale.Location = new System.Drawing.Point(129, 75);
+            this.nlxScale.Maximum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.nlxScale.Name = "nlxScale";
+            this.nlxScale.Size = new System.Drawing.Size(59, 25);
+            this.nlxScale.TabIndex = 5;
+            this.nlxScale.ValueChanged += new System.EventHandler(this.nlxScale_ValueChanged);
             // 
             // label8
             // 
@@ -269,83 +346,6 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "旋转:";
             // 
-            // nlRotate
-            // 
-            this.nlRotate.Location = new System.Drawing.Point(129, 34);
-            this.nlRotate.Maximum = new decimal(new int[] {
-            360,
-            0,
-            0,
-            0});
-            this.nlRotate.Name = "nlRotate";
-            this.nlRotate.Size = new System.Drawing.Size(59, 25);
-            this.nlRotate.TabIndex = 5;
-            this.nlRotate.ValueChanged += new System.EventHandler(this.nlRotate_ValueChanged);
-            // 
-            // nlxScale
-            // 
-            this.nlxScale.DecimalPlaces = 1;
-            this.nlxScale.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.nlxScale.Location = new System.Drawing.Point(129, 75);
-            this.nlxScale.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.nlxScale.Name = "nlxScale";
-            this.nlxScale.Size = new System.Drawing.Size(59, 25);
-            this.nlxScale.TabIndex = 5;
-            this.nlxScale.ValueChanged += new System.EventHandler(this.nlxScale_ValueChanged);
-            // 
-            // nlyScale
-            // 
-            this.nlyScale.DecimalPlaces = 1;
-            this.nlyScale.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.nlyScale.Location = new System.Drawing.Point(263, 75);
-            this.nlyScale.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.nlyScale.Name = "nlyScale";
-            this.nlyScale.Size = new System.Drawing.Size(59, 25);
-            this.nlyScale.TabIndex = 5;
-            this.nlyScale.ValueChanged += new System.EventHandler(this.nlyScale_ValueChanged);
-            // 
-            // nlxMove
-            // 
-            this.nlxMove.Location = new System.Drawing.Point(129, 116);
-            this.nlxMove.Maximum = new decimal(new int[] {
-            200,
-            0,
-            0,
-            0});
-            this.nlxMove.Name = "nlxMove";
-            this.nlxMove.Size = new System.Drawing.Size(59, 25);
-            this.nlxMove.TabIndex = 5;
-            this.nlxMove.ValueChanged += new System.EventHandler(this.nlxMove_ValueChanged);
-            // 
-            // nlyMove
-            // 
-            this.nlyMove.Location = new System.Drawing.Point(263, 116);
-            this.nlyMove.Maximum = new decimal(new int[] {
-            200,
-            0,
-            0,
-            0});
-            this.nlyMove.Name = "nlyMove";
-            this.nlyMove.Size = new System.Drawing.Size(59, 25);
-            this.nlyMove.TabIndex = 5;
-            this.nlyMove.ValueChanged += new System.EventHandler(this.nlyMove_ValueChanged);
-            // 
             // Example14_04
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -359,18 +359,18 @@
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Example14_04_Paint);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ngRotate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ngxScale)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ngyMove)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ngxMove)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ngyScale)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ngyMove)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nlRotate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nlxScale)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nlyScale)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nlxMove)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ngxScale)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ngRotate)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nlyMove)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nlRotate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nlxMove)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nlyScale)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nlxScale)).EndInit();
             this.ResumeLayout(false);
 
         }
