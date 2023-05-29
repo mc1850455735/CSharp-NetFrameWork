@@ -39,6 +39,17 @@ namespace CSharpCourse_NetFrameWork.Example14
             }
         }
 
+        private void Example14_02_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Example14_02_SizeChanged(object sender, EventArgs e)
+        {
+            g = this.CreateGraphics();
+            isMouseDown = false;
+        }
+
         public Example14_02()
         {
             InitializeComponent();
